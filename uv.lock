@@ -401,6 +401,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "alembic" },
+    { name = "annotated-types" },
     { name = "fastapi" },
     { name = "pydantic" },
     { name = "python-dotenv" },
@@ -411,6 +412,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "alembic", specifier = ">=1.18.4" },
+    { name = "annotated-types", specifier = ">=0.7.0" },
     { name = "fastapi", specifier = ">=0.135.1" },
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
