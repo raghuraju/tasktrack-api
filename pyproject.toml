@@ -13,3 +13,8 @@ dependencies = [
     "sqlmodel>=0.0.37",
     "uvicorn[standard]>=0.42.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.11.0",
+]
